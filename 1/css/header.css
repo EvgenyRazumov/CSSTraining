@@ -1,0 +1,72 @@
+.header-container__content
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header-site-name
+{
+    display: inline-block;
+
+    width: 50%;
+}
+
+.header-site-navigation
+{
+    font-family: SourceSansProBold, Serif;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.site-name-title
+{
+    font-family: SourceSansProBlack, Serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    margin-left: 60px;
+
+    color: #637f83;
+}
+
+.header-site-navigation__navigation-item
+{
+    font-size: 14px;
+
+    display: inline-block;
+
+    padding: 30px 20px;
+
+    text-transform: uppercase;
+}
+
+.header-site-navigation__navigation-item--active
+{
+    padding: 15px 15px 30px 15px;
+}
+
+.header-site-navigation__navigation-item .link
+{
+    display: block;
+
+    text-decoration: none;
+
+    color: #637f83;
+}
+
+.header-site-navigation__navigation-item .link-active
+{
+    color: #e4551d;
+}
+
+.header-site-navigation__navigation-item .link-active::before
+{
+    display: block;
+
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+    content: url('../images/arrow-down.png');
+    text-align: center;
+}

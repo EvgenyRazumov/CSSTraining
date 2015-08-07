@@ -1,0 +1,54 @@
+.feature-container
+{
+    text-align: center;
+}
+
+.feature-container__logo
+{
+    padding: 60px 0 20px 0;
+}
+
+.feature-container__title
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 10px 0;
+
+    color: #637f83;
+}
+
+.feature-container__feature-text
+{
+    font-family: SourceSansProLight, Serif;
+    font-size: 14px;
+    line-height: 18px;
+
+    padding: 10px 10px;
+
+    color: #a2a1a1;
+}
+
+.feature-container__more-container
+{
+    padding: 10px 0 40px 0;
+}
+
+.feature-container__more-button
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    padding: 10px 15px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 5px;
+    background-color: #597275;
+}

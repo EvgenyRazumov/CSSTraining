@@ -1,0 +1,46 @@
+.follow-us-container
+{
+    background-color: #fff;
+}
+
+.follow-us-container__content
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.follow-us-container__content .content-item
+{
+    padding: 30px 0;
+}
+
+.follow-us-container__content .logo
+{
+    float: left;
+}
+
+.follow-us-container__content .description-container
+{
+    float: left;
+
+    padding: 10px 20px;
+}
+
+.follow-us-container__content .description-title
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #637f83;
+}
+
+.follow-us-container__content .description-content
+{
+    font-family: SourceSansProRegular, Serif;
+    font-size: 14px;
+
+    padding-top: 3px;
+
+    color: #b5c7c9;
+}

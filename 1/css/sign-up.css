@@ -1,0 +1,74 @@
+.sign-up-container
+{
+    margin-right: 10px;
+}
+
+.sign-up-container__header
+{
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #fff;
+}
+
+.sign-up-container__header .logo
+{
+    float: left;
+
+    padding: 7px 20px 0 0;
+}
+
+.sign-up-container__header .title
+{
+    font-family: SourceSansProBold, Serif;
+    font-weight: bold;
+}
+
+.sign-up-container__header .subtitle
+{
+    font-family: SourceSansProRegular, Serif;
+}
+
+.sign-up-container__content
+{
+    display: table;
+
+    padding-top: 20px;
+}
+
+.sign-up-container__content .email-input-cell,
+.sign-up-container__content .button-container-cell
+{
+    display: table-cell;
+}
+
+.sign-up-container__content .email-input-cell
+{
+    width: 100%;
+
+    border-radius: 5px;
+    background-color: #597275;
+}
+
+.sign-up-container__content .button-container
+{
+    min-width: 100px;
+    margin-left: 10px;
+    padding: 10px 0;
+
+    text-align: center;
+
+    border-radius: 5px;
+    background-color: #597275;
+}
+
+.sign-up-container__content .button
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    color: #fff;
+}

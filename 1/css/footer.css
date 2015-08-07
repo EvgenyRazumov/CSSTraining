@@ -1,0 +1,12 @@
+.footer-container
+{
+    font-family: SourceSansProRegular, Serif;
+    font-size: 14px;
+
+    padding: 30px 0;
+
+    text-align: center;
+
+    color: #eef1f1;
+    background-color: #637f83;
+}

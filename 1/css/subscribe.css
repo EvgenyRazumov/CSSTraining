@@ -1,0 +1,41 @@
+.subscribe-newsletters-container
+{
+    margin: 0 auto;
+
+    background-color: #637f83;
+}
+
+.subscribe-newsletters-container__header
+{
+    padding: 40px 0;
+
+    text-align: center;
+}
+
+.subscribe-newsletters-container__content
+{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    border-top: 2px solid #597275;
+}
+
+.subscribe-newsletters-container__header .title
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    color: #fff;
+}
+
+.subscribe-newsletters-container__header .content
+{
+    font-family: SourceSansProLight, Serif;
+    font-size: 20px;
+
+    padding-top: 5px;
+
+    color: #eaeeee;
+}

@@ -1,0 +1,66 @@
+.people-container
+{
+    background-color: #fff;
+}
+
+.people-container__content
+{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 35px 0;
+
+    border-top: 2px solid #d9d9d9;
+}
+
+.people-container__people-info
+{
+    display: table;
+
+    padding: 10px 0;
+}
+
+.people-container__content .people-container__people-info:nth-child(2n)
+{
+    padding-left: 10px; /*this looks like a hack but I don't know how to do that another way*/
+}
+
+.people-container__people-info .logo
+{
+    display: table-cell;
+
+    vertical-align: top;;
+}
+
+.people-container__people-info .logo-image
+{
+    width: 90px;
+}
+
+.people-container__people-info .people-description-container
+{
+    display: table-cell;
+
+    padding-left: 20px;
+
+    vertical-align: top;
+}
+
+.people-container__people-info .title
+{
+    font-family: SourceSansProBold, Serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: #637f83;
+}
+
+
+.people-container__people-info .about
+{
+    font-family: SourceSansProRegular, Serif;
+    font-size: 16px;
+
+    padding: 10px 20px 0 0;
+
+    color: #959494;
+}

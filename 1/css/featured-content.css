@@ -1,0 +1,20 @@
+.featured-content-container
+{
+    background-color: #f6f6f6;
+}
+
+.featured-content-container__content
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.featured-content-container__content .content-item
+{
+    border-right: 2px solid #d5d5d5;
+}
+
+.featured-content-container__content .content-item:last-child
+{
+    border-right: none;
+}
