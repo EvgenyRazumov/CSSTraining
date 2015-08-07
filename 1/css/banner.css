@@ -1,0 +1,48 @@
+.banner-container
+{
+    height: 455px;
+
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-info-container
+{
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 115px;
+
+    text-align: center;
+}
+
+.banner-info-title
+{
+    font-family: PTSansBold, Serif;
+    font-size: 38px;
+    line-height: 44px;
+
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+    color: #fff;
+}
+
+.banner-info-content
+{
+    font-family: LatoRegular, Serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-top: 30px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #f3f4f5;
+}
+
+.banner-info-link
+{
+    padding-top: 20px;
+}
